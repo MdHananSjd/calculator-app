@@ -48,7 +48,7 @@ buttons = [
 ]
 # Configure style for theme
 style = ttk.Style()
-style.theme_use('classic')
+style.theme_use('clam')
 style.configure("TButton", font=("Helvetica", 16), width=10, height=4)
 # Create buttons and add them to the grid
 for button_info in buttons:
